@@ -1,96 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Daniel Feltham</title>
-    <link rel="icon" type="image/x-icon" href="./resources/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/4bbf53351e.js" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Daniel Feltham</title>
+  <link rel="icon" type="image/x-icon" href="./resources/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4bbf53351e.js" crossorigin="anonymous"></script>
+</head>
 
-  </head>
-
-  <body>
-    <main>
-      <div id="splash">
-        <div id="title">
-          <h1>Dan Feltham</h1>
-          <hr>
-          <h4>Software Engineer</h4>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#about_section">About</a></li>
-            <li><a href="./resources/CV.pdf" target="_blank">Resume</a></li>
-            <li><a href="#projects_section">Projects</a></li>
-            <li><a href="#contact_section">Contact</a></li>
-          </ul>
-        </nav>
+<body>
+  <main>
+    <div id="splash">
+      <div id="title">
+        <h1>Dan Feltham</h1>
+        <hr>
+        <h4>Software Engineer</h4>
       </div>
+      <nav>
+        <ul>
+          <li><a href="#about_section">About</a></li>
+          <li><a href="./resources/CV.pdf" target="_blank">Resume</a></li>
+          <li><a href="#projects_section">Projects</a></li>
+          <li><a href="#contact_section">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
 
-      <section id="about_section">
-        <div class="section_heading">
-          <h2>About Me</h2>
-          <hr>
-        </div>
-        <img src="./resources/headshot.jpg" alt="A picture of me" id="headshot">
-        <div id="about_me">
-          <h3>Hi, I'm Dan</h3>
-          <hr>
-          <p>
-            I’m studying a double degree of software engineering and commerce at Monash University.
-            I’ve built this website to showcase some of my projects and practice my web development skills.
-          </p>
-          <div id="icons">
-            <a href="https://github.com/Aretle" target="_blank"><i class="fab fa-github fa-7x"></i></a>
-            <a href="https://www.linkedin.com/in/daniel-feltham-116046215/" target="_blank"><i class="fab fa-linkedin fa-7x"></i></a>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects_section">
-        <div class="section_heading">
-          <h2>Projects</h2>
-          <hr>
-        </div>
-        <div class="project">
-          <img src="./resources/website_image.jpg" alt="Project image" class="project_thumbnail">
-          <div class="blurb">
-            <h3>This website</h3>
-            <hr>
-            <p>It makes sense that the first project is a place where I can document the rest of my projects.
-              I used Figma to design the page, then I wrote the page from scratch with HTML, CSS and a pinch of Javascript.</p>
-            <button id="website_info">More Info</button>
-          </div>
-          <div class="project_video" id="website_video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/oCe09ORqNes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-      </Section>
-
-      <section id="contact_section">
-        <div class="section_heading">
-          <h2>Contact</h2>
-          <hr>
-        </div>
+    <section id="about_section">
+      <div class="section_heading">
+        <h2>About Me</h2>
+        <hr>
+      </div>
+      <img src="./resources/headshot.jpg" alt="A picture of me" id="headshot">
+      <div id="about_me">
+        <h3>Hi, I'm Dan</h3>
+        <hr>
         <p>
-          Want to get in touch? Feel free to send me a message below for any reason and I'll get back to you when I can.
+          I’m studying a double degree of software engineering and commerce at Monash University.
+          I’ve built this website to showcase some of my projects and practice my web development skills.
         </p>
-        <form onsubmit="sendEmail(); reset(); return false;">
-          <input id="contact_name" type="text" placeholder="name">
-          <input id="contact_email" type="text" placeholder="email">
-          <textarea id="contact_message" placeholder="message"></textarea>
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-    </main>
-  </body>
+        <div id="icons">
+          <a href="https://github.com/Aretle" target="_blank"><i class="fab fa-github fa-7x"></i></a>
+          <a href="https://www.linkedin.com/in/daniel-feltham-116046215/" target="_blank"><i class="fab fa-linkedin fa-7x"></i></a>
+        </div>
+      </div>
+    </section>
 
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script type="text/javascript" src="./index.js"></script>
+    <section id="projects_section">
+      <div class="section_heading">
+        <h2>Projects</h2>
+        <hr>
+      </div>
+      <div class="project">
+        <img src="./resources/website_image.jpg" alt="Project image" class="project_thumbnail">
+        <div class="blurb">
+          <h3>This website</h3>
+          <hr>
+          <p>It makes sense that the first project is a place where I can document the rest of my projects.
+            I used Figma to design the page, then I wrote the page from scratch with HTML, CSS and a pinch of Javascript.</p>
+          <button id="website_info">More Info</button>
+        </div>
+        <div class="project_video" id="website_video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/oCe09ORqNes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
 
+    <section id="contact_section">
+      <div class="section_heading">
+        <h2>Contact</h2>
+        <hr>
+      </div>
+      <p>
+        Want to get in touch? Feel free to send me a message below for any reason and I'll get back to you when I can.
+      </p>
+      <form action="https://formsubmit.co/danielfeltham98@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Website Enquiry">
+        <input id="contact_email" name="email" type="email" placeholder="email" required>
+        <input id="contact_name" name="name" type="text" placeholder="name" required>
+        <textarea id="contact_message" name="message" type="text" placeholder="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+</body>
+
+<script type="text/javascript" src="./index.js"></script>
 
 </html>

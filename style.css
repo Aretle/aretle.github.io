@@ -323,6 +323,7 @@ Contact Section
   font-family: Poppins;
   font-style: italic;
   padding: 2%;
+  resize: none;
 }
 
 #contact_section p {

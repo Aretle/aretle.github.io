@@ -7,4 +7,9 @@ document.getElementById("website_info").onclick = function() {
 
 website_video.addEventListener("click", function() {
   website_video.style.display = "none";
+  console.log("Exit video");
+  var iframe = document.getElementsByTagName("iframe")[0];
+  var url = iframe.getAttribute('src');
+  iframe.setAttribute('src', '');
+  iframe.setAttribute('src', url);
 });
